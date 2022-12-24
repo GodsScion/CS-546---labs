@@ -1,0 +1,24 @@
+<article class="new-post">
+  <h2>{{showSearchTerm}}</h2>
+  
+  <section>
+      <ul>
+          {{#each data}}
+          <li>
+              {{{this}}}
+          </li>
+          {{/each}}
+      </ul>
+  </section>
+ 
+
+  {{#if hasErrors}}
+  <ul class="error-list">
+    {{#each errors}}
+    <li>
+      {{this}}
+    </li>
+    {{/each}}
+  </ul>
+  {{/if}}
+</article>

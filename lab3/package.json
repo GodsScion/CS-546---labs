@@ -1,0 +1,15 @@
+{
+  "name": "cs546_lab3",
+  "version": "1.0.0",
+  "description": "lab 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "author": "Sai Vignesh Golla 20008561",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}

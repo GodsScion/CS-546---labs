@@ -1,0 +1,70 @@
+<article class="new-post">
+    
+    {{#if data.name}}
+        <h1>{{data.name}}</h1>
+    {{else}}
+        <h1>N/A</h1>
+    {{/if}}
+
+
+    {{#if data.image.medium}}
+        <img src="{{data.image.medium}}" alt="Movie Picture">
+    {{else}}
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAABra2t7e3uoqKi1tbXu7u7Ozs77+/vi4uLx8fHp6enLy8tubm6YmJjV1dVMTEydnZ2MjIxGRkbCwsJVVVW8vLxmZmYsLCxSUlKDg4ORkZHc3NwXFxfT09MNDQ0+Pj5eXl4eHh4nJyesrKxAQEB2dnY1NTUjIyP6LoKAAAAE0ElEQVR4nO2b61bqMBBGGRCoLQLiFQG5iJf3f8KD0OY6TaKS5CzWt/+Z0pzZkDSTSU+nAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAL+jSbe4Q4lISDXLHEJcresgdQmQ+6TF3CHFZEuUOITIv9JI7hMgQLXOHEJdHes4dQmQe6Cp3CHGpiMrcMcRlTE+5Q4jMM93nDoFnMjry536GtD5DNDHY0pG2jLkQePr5oJndONpMv3n33RyV7smQJvzl2/oy3bi7KYiu7db668ubzDWGa/57vmoMe+5u9nRnNw6am7dnCPTXdN1RhBpOqW83igGQdVMlDPmpGGh4TcSMgU9334mQhvTKXA40nNGH3TiRXX+eJ9hfoRiumZwkzLDY0dBu7cmuc+bkiiG3Qw8zHNGb3VgoPefcV6mGNLYuhxk+MXd2+mrPLY/qFGiG9lgLMjysCpXdOtd6zpfS6YbWVAwyZCtQldZxxrRcN7RCDTLccEnLQu8439bKMKSFfjnEcMnOsjej4/154w7HNDSmYojhC3dxZPbLZHVpsAz1DCvAsFhzaftNfd9s1/SQa0m0Defq5QDDRy5jKcWQmLWM/2QIw8WaCyXAkK1A7Zv7ZO7GJAVJEIaP9+JXVHb8fsOK3Tnc1bcddizim2MSuxQIw76SR8onu9/wllvqlrLXjhimnk10LBTDw7pWI597fkO2AiWsBoott8FKgGoo0xAxFb2GQ9rZjcWqvmvz/ddO+ScyoBoeHovmVPQashUoMaWPO99x89fc/mQCNMPD4m1MRZ+huwJ1WgPlMGXy8/johp13Yyr6DPvOCtTq9Pez9pOmxjCUU/E0+HyGd1y+KW6q972iIpXlcMowlFPo9Ij0GF6zewZRgRqKT9VwpaDYmIbKVPxeyD2GC3cFqmkRy1COYoZlqE9Fj+GaS1TEd9RtWkQvOZZE21A8J76notvQU4ES++LKbkqHbahNRbchW4GSi6qcotOmKUN9nzGUOReVe5dh6a5AbarrmkqWNNLX9zlDORXnzt8wpAJlkv6snzWUU/HLZfjpPo5hSV/fZw2Vqegw5N+B2lm36iQvZvCGylRsN2TfgRp6BLlEPS4thmKT7jBkD44/fIbJ331rMxwYcdmG91yaWZCXv78V8TPaDM2paBtuua1Cn7ykLma0GhpT0TIcsEm3GNyr0VDjdSu6Spy5tRvKRIQ1vOXyE7kYWg8hOSYS1/cdhgOnIVuBkrmLtSgUoqqYuL7vMNTOHkzDCftQJIeFLFamLWa4DNUTMtOwx74D5RqJctvIpOsRcRoq57iGIV+Bkocg3Gmh2PqvzhB3OG7Dss2wTxvXp5mdv1JVTFvMcBvKJMwwnHPjUGy1+LfkZLnG84LVeXlyG4ovXg+KfyFYlGNaNhBy+flj0D9i3L058tSWTD1w424hazAS+ShpqYvK3zjbkTdH2Tuix/TFZZfloKZqyVqKqvnEf//fo0aJH4fp6SZe0pJTsovhJbGnae4QInOX6awzGctc59XJmKXNSdJTrLIckiWErUBdFGwF6pKoMr1wkI5x3v8Bk4BF78KfMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgvPwDTeUpGyu/Wo4AAAAASUVORK5CYII=" alt="N/A">
+    {{/if}}
+
+
+
+    <dl>
+        <dt>Language</dt>
+        {{#if data.language}}
+            <dd>{{data.language}}</dd>
+        {{else}}
+            <dd>N/A</dd>
+        {{/if}}
+
+        
+
+        <dt>Genres</dt>
+        {{#if data.genres}}
+            <dd>
+                <ul>
+                    {{#each data.genres}}
+                    <li>
+                        {{{this}}}
+                    </li>
+                    {{/each}}
+                </ul>
+            </dd>        
+        {{else}}
+            <dd>N/A</dd>
+        {{/if}}
+
+
+        <dt>Average Rating</dt>
+        {{#if data.rating.average}}
+            <dd>{{data.rating.average}}</dd>
+        {{else}}
+            <dd>N/A</dd>
+        {{/if}}
+        
+        
+        
+        <dt>Network</dt>
+        {{#if data.network.name}}
+            <dd>{{data.network.name}}</dd>
+        {{else}}
+            <dd>N/A</dd>
+        {{/if}}
+        
+        
+        
+        <dt>Summary</dt>
+        {{#if data.summary}}
+            <dd>{{{data.summary}}}</dd>
+        {{else}}
+            <dd>N/A</dd>
+        {{/if}}
+    </dl>
+
+</article>

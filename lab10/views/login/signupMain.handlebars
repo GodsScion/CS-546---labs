@@ -1,0 +1,18 @@
+<section>
+<form id="signup-form" action="/signup" method="POST">
+  <label for="username">Username: </label>
+  <input id="username" name="username" type="text" placeholder="Enter Username" value="{{username}}">
+  <br>
+  <label for="password">Password: </label>
+  <input id="password" name="password" type="password" placeholder="Enter Password"  value="{{password}}">
+  <br>
+    {{#if hasError}}
+        <p class="error"> {{message}} </p>
+    {{/if}}
+  <br>
+  <button type="submit" class="button">Submit</button>
+  <br><br>
+  <a href="/">Already have an account? Click here to log-in</a>
+  <br>
+</form>
+</section>

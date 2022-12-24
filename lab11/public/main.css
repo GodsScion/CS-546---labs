@@ -1,0 +1,121 @@
+body {
+    background: rgb(208, 206, 211);
+}
+
+main {
+    max-width: 50%;
+    margin: auto;
+}
+
+header {
+    align-items: center; 
+    justify-content: center; 
+}
+
+footer { 
+    align-items: center; 
+    justify-content: space-evenly; 
+} 
+
+h1 {
+    color: darkred;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-family: "Georgia";
+    font-weight: normal;
+}
+h2 {
+    color: darkred;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-family: "Georgia";
+    font-weight: normal;
+}
+h3 {
+    color: darkred;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-family: "Georgia";
+    font-weight: normal;
+}
+
+p, label{
+    color: darkred;
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: "Georgia";
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+a:link {
+    color: darkred;
+    font-size: large;
+    align-items: center;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: darkred;
+}
+a:active {
+    color: darkred;
+}
+a.new {
+    color: darkred;
+    font-family: Georgia;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.text-goes-here {
+    color: darkred;
+}
+
+.footerClass {
+    color: darkred;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Georgia";
+    font-weight: normal;
+}
+
+input[type=number] {
+    padding: 8px 10px;
+}
+
+button {
+    font-family: "Georgia";
+    font-size: 17px;
+    background-color: darkred;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.search-box {
+    min-width: 4cm;
+    max-width: 5cm;
+    border: 3px solid darkred;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.search-term{
+    min-width: 4cm;
+    
+}

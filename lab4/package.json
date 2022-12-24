@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-mongodb",
+  "version": "1.0.0",
+  "description": "Lab assignment 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "author": "Sai Vignesh Golla 20008561",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^4.1.3"
+   
+  }
+}

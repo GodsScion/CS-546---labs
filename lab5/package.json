@@ -1,0 +1,16 @@
+{
+    "name": "lab_5",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "node app.js",
+        "start": "node app.js"
+    },
+    "author": "Sai Vignesh Golla",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "express": "^4.17.2"
+    }
+}

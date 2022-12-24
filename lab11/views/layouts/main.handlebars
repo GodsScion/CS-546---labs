@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Show Finder</title>
+    <link rel="stylesheet" href="/public/main.css" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1 id="the-heading">Show Finder</h1>
+    </header>
+    <main class="container">
+        <form id="searchForm">
+            <label for="search_term" class="search-term">Search Shows</label>
+            <input id="search_term" type="text" name="search_term" class="search-box" placeholder="search term keyword" />
+            <button type="submit">Search</button>
+        </form>
+        
+        <ul id="showList"></ul>
+
+        <div id="show"></div>
+
+        <a href="/" id="homeLink">Back to All Shows</a>
+    </main>
+
+    <footer>
+        <p class="footerClass">Sai Vignesh Golla</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script src="/public/form.js"></script>
+</body>
+
+</html>

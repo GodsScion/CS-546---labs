@@ -1,0 +1,18 @@
+<article class="new-post">
+  
+  {{#if hasErrors}}
+  <h1 class="error">Error</h1>
+  <ul class="error-list">
+    {{#each errors}}
+    <li>
+      {{this}}
+    </li>
+    {{/each}}
+  </ul>
+  {{else}}
+  <h2>{{showSearchTerm}}</h2>
+  <p class="show-not-found">We're sorry, but no results were found for {{showSearchTerm}}.</p>
+  {{/if}}
+
+
+</article>
