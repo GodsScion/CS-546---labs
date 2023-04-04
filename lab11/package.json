@@ -8,7 +8,7 @@
     "start": "node app.js"
   },
   "author": "Sai Vignesh Golla 20008561",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.3",
     "express-handlebars": "^6.0.5",
