@@ -1,4 +1,5 @@
 # All CS546 labs questions and answers
+This is a repo of all the lab questions and answers submitted by Sai Vignesh Golla for CS 546 in Spring 2022.
 
 ## About Course
 - CS 546 - Web Programming
