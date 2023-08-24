@@ -1,4 +1,4 @@
-# All CS-546 Web Programming 1 labs questions and answers
+# All CS-546 Web Programming 1 labs
 This is a GitHub repo of all the lab questions and answers submitted by Sai Vignesh Golla for CS 546 in Spring 2022.
 
 ## About Course
