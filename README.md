@@ -16,6 +16,7 @@ This is a GitHub repo of all the lab questions and answers submitted by Sai Vign
 ## Author
 - **Name:** Sai Vignesh Golla
 - **LinkedIn:** https://www.linkedin.com/in/saivigneshgolla/
+- **Email:** saivigneshgolla@outlook.com
 - **GitHub:** https://github.com/GodsScion
 
 
